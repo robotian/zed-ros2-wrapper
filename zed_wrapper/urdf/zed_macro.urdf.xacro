@@ -166,7 +166,7 @@
         <visual>
           <origin xyz="${screw_offset_x} 0 ${screw_offset_z}" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="file://$(find zed_msgs)/meshes/${model}.stl"/>
+            <mesh filename="file://$(find zed_description)/meshes/${model}.stl"/>
           </geometry>
             <material name="zed_mat">
               <color rgba="${mat}"/>
@@ -175,7 +175,7 @@
         <collision>
           <origin xyz="${screw_offset_x} 0 ${screw_offset_z}" rpy="0 0 0"/>
           <geometry>
-            <mesh filename="file://$(find zed_msgs)/meshes/${model}.stl"/>
+            <mesh filename="file://$(find zed_description)/meshes/${model}.stl"/>
           </geometry>
         </collision>
       </xacro:unless>
@@ -193,7 +193,7 @@
           <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-              <mesh filename="file://$(find zed_msgs)/meshes/${model}.stl"/>
+              <mesh filename="file://$(find zed_description)/meshes/${model}.stl"/>
             </geometry>
             <material name="zed_mat">
               <color rgba="${mat}"/>
@@ -202,7 +202,7 @@
           <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-              <mesh filename="file://$(find zed_msgs)/meshes/${model}.stl"/>
+              <mesh filename="file://$(find zed_description)/meshes/${model}.stl"/>
             </geometry>
           </collision>
         </xacro:if>
@@ -226,7 +226,7 @@
           <visual>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-              <mesh filename="file://$(find zed_msgs)/meshes/${model}.stl"/>
+              <mesh filename="file://$(find zed_description)/meshes/${model}.stl"/>
             </geometry>
             <material name="zed_mat">
               <color rgba="${mat}"/>
@@ -235,7 +235,7 @@
           <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
-              <mesh filename="file://$(find zed_msgs)/meshes/${model}.stl"/>
+              <mesh filename="file://$(find zed_description)/meshes/${model}.stl"/>
             </geometry>
           </collision>
         </xacro:if>
